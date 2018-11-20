@@ -4,7 +4,7 @@ const initialState = {
     guesses: [],
     feedback: 'Make your guess!',
     auralStatus: '',
-    correctAnswer: Math.round(Math.random() * 100) + 1
+    correctAnswer: 24
 };
 
 export default (state = initialState, action) => {
